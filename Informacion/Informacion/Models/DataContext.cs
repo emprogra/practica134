@@ -12,5 +12,7 @@ namespace Informacion.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<Informacion.Models.Sujeto> Sujetoes { get; set; }
     }
 }
